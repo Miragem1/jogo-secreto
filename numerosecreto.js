@@ -12,7 +12,7 @@ chamarTextoParaTela("h1", "Game of the secret number");
 chamarTextoParaTela("p", "Put a number between 1 and 10:");
 
 function exibirMensagemInicial() {
-  chamarTextoParaTela("h1", "Game of the secret number");
+  chamarTextoParaTela("h1", "Game of the secret number do Miras");
   chamarTextoParaTela("p", "Put a number between 1 and 10:");
   chamarTextoParaTela("h2", "Parabéns! O ciclo do jogo foi resetado.");
 }
