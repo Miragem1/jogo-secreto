@@ -1,6 +1,7 @@
 let listaDeNumerosSorteados = [];
 let numeroSecreto = gerarNumeroAle();
 let tentativas = 1;
+let numeroLimite = 100;
 
 function chamarTextoParaTela(tag, texto) {
   let campo = document.querySelector(tag);
@@ -8,7 +9,7 @@ function chamarTextoParaTela(tag, texto) {
   responsiveVoice.speak(texto, "Brazilian Portuguese Female", { rate: 1.2 });
 }
 
-  chamarTextoParaTela("h1", "Game of the secret number do Miras");
+chamarTextoParaTela("h1", "Game of the secret number do Miras");
 
 chamarTextoParaTela("p", "Put a number between 1 and 10:");
 
